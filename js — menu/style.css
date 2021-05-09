@@ -1,0 +1,58 @@
+body
+{
+	background: #363636;
+	font-family: 'Roboto', sans-serif;
+}
+*{margin: 0;
+padding: 0;box-sizing: border-box;}
+menu
+{
+	color: white;
+	position: absolute;
+	right: 10%;
+	top: 40px;
+	font-size: 1.8em;
+	cursor: pointer;
+	z-index: 1;
+}
+nav
+{
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 2;
+	width: 80%;
+	height: 80vh;
+	/*background: #1C57A7;*/
+	background: rgba(28,87,148,0.7);
+	overflow: hidden;
+	display: none;
+}
+nav ul li
+{
+	display: inline-block;
+	width: 19.7%;
+	height: 100vh;
+	/*border-right: 1px solid #11315D;*/
+	text-align: center;
+
+}
+nav ul li a 
+{
+	
+	text-decoration: none;
+	display: block;
+	padding-top: 120%
+}
+ul li a span
+{
+	color: white;
+}
+nav ul li:hover 
+{
+	background: #2B79DA;
+	color: red;
+}

@@ -1,0 +1,44 @@
+!	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<menu onclick="show(this)">
+		<i class="fa fa-bars" aria-hidden="true"></i>
+	</menu>
+
+	<nav>
+		<ul>
+			<li><a href=""><span>home</span></a></li>
+			<li><a href=""><span>about</span></a></li>
+			<li><a href=""><span>blog</span></a></li>
+			<li><a href=""><span>photo</span></a></li>
+			<li><a href=""><span>contacts</span></a></li>
+		</ul>
+	</nav>
+
+	    <script>
+        let opened;
+        function show(item){
+            if(opened)
+            {
+                opened.style.display = "none";
+            }
+            if(opened === item.nextElementSibling){
+                opened.style.display = "none";
+                opened = null;
+                return;
+            }
+            opened = item.nextElementSibling;
+            item.nextElementSibling.style.display = "block";
+        }
+    </script>
+</body>
+</html>
