@@ -15,7 +15,7 @@ body
 header
 {
 	width:100%;
-	height: 100vh;
+	height: 75px;
 	background: url(img/bg.jpg) center center no-repeat;
 	background-size:cover;
 }
@@ -154,7 +154,7 @@ section.features div.align div.text p
 }
 section.gamemodes
 {
-	height::1000px;
+	height:1000px;
 	width: 100%;
 	background: #FFA700;
 	display: flex;
