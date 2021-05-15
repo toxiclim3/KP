@@ -152,3 +152,10 @@ section.features div.align div.text p
 	width: 100%;
 	color: red
 }
+section.gamemodes
+{
+	height::1000px;
+	width: 100%;
+	background: #FFA700;
+	display: flex;
+}
