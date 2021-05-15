@@ -96,11 +96,23 @@ section.gallery div.container div.box
 	background: rgba(85,90,224,0.5);
 	box-shadow: rgba(36,42,197,0.5) 2px 2px 4px;
 	border-radius: 15px;
+	overflow: hidden;
 }
 section.gallery div.container div.box img
 {
 	width: 100%;
 }
+section.gallery div.container div.box:hover
+{
+	transform: scale(1.1);
+	transition:0.5s;
+}
+section.gallery div.container div.box img:hover
+{
+	transform: scale(1.05);
+	transition:1.5s;
+}
+
 section.feaures
 {
 	
