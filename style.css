@@ -87,11 +87,15 @@ section.gallery div.container
 	justify-content:space-around;
 	align-items:center;
 	flex-wrap: wrap;
+	
 }
 section.gallery div.container div.box
 {
 	width: 15%;
 	margin: 1em;
+	background: rgba(85,90,224,0.5);
+	box-shadow: rgba(36,42,197,0.5);
+	border-radius: 15px;
 }
 section.gallery div.container div.box img
 {
@@ -116,15 +120,20 @@ section.features div.align img
 	position: absolute;
 	left:5%;
 }
-section.features div.align p
+section.features div.align div.text
 {
-	display: flex;
-	margin-bottom: 100px;
+	padding: 3em;
+	float: right;
+}
+section.features div.align div.text p
+{
 	color:white;
 	position: absolute;
 	right: 5%;
-	font-size: 1.3em;
+	font-size: 1.4em;
+	text-shadow: 2px 4px 5px rgba(255,255,255,0.5)
 }
+
 .regim
 {
 	background: #0023F7
