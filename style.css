@@ -94,7 +94,7 @@ section.gallery div.container div.box
 	width: 15%;
 	margin: 1em;
 	background: rgba(85,90,224,0.5);
-	box-shadow: rgba(36,42,197,0.5);
+	box-shadow: rgba(36,42,197,0.5) 2px 2px 4px;
 	border-radius: 15px;
 }
 section.gallery div.container div.box img
