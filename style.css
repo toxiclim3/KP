@@ -6,7 +6,7 @@
 }
 body
 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	background: #000a17;
 	text-align: justify;
 	font-weight: 300;
@@ -46,10 +46,15 @@ header menu ul li a
 }
 header menu img
 {
-	width:80px;
+	width:100px;
 	border-radius: 20px;
 	position: absolute;
 	left: 5%;
+}
+i 
+{
+	color: white;
+	position: left;
 }
 section.sand
 {
@@ -60,11 +65,12 @@ section.sand
 }
 section.sand div
 {
+	font-family: 'Rubik', sans-serif;
 	width:40%;
 	position: absolute;
-	right: 5%;
-	bottom: 2.5%;
-	font-size: 3em;
+	right: 15%;
+	bottom: 5%;
+	font-size: 2.5em;
 }
 section.gallery
 {
@@ -99,9 +105,11 @@ section.feaures
 }
 section.features div.align
 {
+	width:100%;
+	height: 100%;
 	display: flex;
 	position: relative;
-	justify-content: space-between;
+	justify-content: center;
 }
 section.features div.align img
 {
@@ -110,8 +118,16 @@ section.features div.align img
 }
 section.features div.align p
 {
+	display: flex;
+	margin-bottom: 100px;
 	color:white;
 	position: absolute;
-	right: 15%;
-	font-size: 1.5em;
+	right: 5%;
+	font-size: 1.3em;
+}
+.regim
+{
+	background: #0023F7
+	width: 100%;
+	color: red
 }
