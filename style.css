@@ -127,10 +127,13 @@ section.features div.align
 	position: relative;
 	justify-content: center;
 }
-section.features div.align img
+section.features div.align div.img
 {
+	width: 310px;
+	height: 496px;
 	position: absolute;
 	left:5%;
+	float: left;
 }
 section.features div.align div.text
 {
