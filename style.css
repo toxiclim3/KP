@@ -186,7 +186,7 @@ section.gamemodes div.align div.text p
 {
 	color:#000a17;
 	font-size: 5em;
-	text-shadow: 2px 4px 5px rgba(255,255,255,0.5)
+	text-shadow: 2px 4px 5px rgba(0,0,0,0.5)
 }
 section#Shop
 {
@@ -219,7 +219,7 @@ section#Shop div.align div.text p
 {
 	color:#000a17;
 	font-size: 5em;
-	text-shadow: 2px 4px 5px rgba(255,255,255,0.5)
+	text-shadow: 2px 4px 5px rgba(0,0,0,0.5)
 }
 footer
 {
