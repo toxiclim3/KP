@@ -225,11 +225,12 @@ footer
 {
 	background: #000a17;
 	width: 100%;
-	height: 100px;
+	height: 50px;
 	color:#f2f3f4;
 	align-content: center;
 	align-items: center;
 	text-align: center;
+	padding: 2.5px;
 }
 div.error404
 {
