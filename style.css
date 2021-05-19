@@ -12,6 +12,11 @@ body
 	font-weight: 300;
 	text-shadow: 2px 4px 5px rgba(0,0,0,0.5)
 }
+p
+{
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-weight: 300;
+}
 header
 {
 	width:100%;
@@ -146,7 +151,7 @@ section.features div.align div.text p
 	color:white;
 	position: absolute;
 	right: 5%;
-	font-size: 1.4em;
+	font-size: 1.6em;
 	text-shadow: 2px 4px 5px rgba(255,255,255,0.5)
 }
 
@@ -182,7 +187,7 @@ section.gamemodes div.align div.text
 	right: 2.5%;
 	bottom:10%;
 }
-section.gamemodes div.align div.text p
+section.gamemodes div.align div.text h2
 {
 	color:#000a17;
 	font-size: 5em;
@@ -215,7 +220,7 @@ section#Shop div.align div.text
 	left: 2.5%;
 	top:10%;
 }
-section#Shop div.align div.text p
+section#Shop div.align div.text h2
 {
 	color:#000a17;
 	font-size: 5em;
